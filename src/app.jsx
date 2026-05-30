@@ -999,37 +999,6 @@ export function App() {
               <p class="block warning">{t('ui.avoidSpoilers')}</p>
               <div class="block">
                 <div>
-                  <button
-                    id="share"
-                    onClick={async () => {
-                      try {
-                        if (
-                          // Edge/ or Edg/
-                          /edge?\//i.test(navigator.userAgent) ||
-                          // Windows
-                          /windows/.test(navigator.userAgent)
-                        ) {
-                          throw new Error(
-                            'Web Share API not working well here',
-                          );
-                        }
-                        copy(shareTextWithLink);
-                        await navigator.share({ text: shareTextWithLink });
-                      } catch (e) {
-                        copy(shareTextWithLink, () => {
-                          alert(t('ui.copiedResults'));
-                        });
-                      }
-                      fireEvent('Click: Share', {
-                        props: {
-                          type: 'share',
-                        },
-                      });
-                    }}
-                  >
-                    {t('common.share')} <ShareIcon width="16" height="16" />
-                  </button>
-                  &nbsp;
                   <ShareImageButton
                     id={currentGame.id}
                     header={t('app.title')}
