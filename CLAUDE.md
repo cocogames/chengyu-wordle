@@ -83,4 +83,3 @@ e2e-test/               # E2E 测试（Playwright）
 - 主组件 `app.jsx` 是一个单文件大组件（约 1500 行），包含所有游戏逻辑。这是刻意为之——本项目是一个小游戏，不是大型应用。
 - 游戏状态通过 `cywd-` 前缀持久化到 localStorage。暴露了 `window.clearGames()` 和 `window.allGames()` 辅助函数用于调试。
 - 答案和提示通过浏览器控制台泄露（`window.ANSWER`、`window.HINTS`），作为彩蛋。
-- 成语释义数据在运行时从外部 API（`baidu-hanyu-idiom.cheeaun.workers.dev`）动态获取。

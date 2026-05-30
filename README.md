@@ -28,14 +28,12 @@ Then, I came across few "forks" of Wordle:
 
 I'm like, "Hey, that's pretty cool, but maybe I could try something else?".
 
-One day, I [tweeted](https://twitter.com/cheeaun/status/1484482726644183041):
-
 > **Wordle, but for Chinese idioms.**
 > 
 > #idea
 > 
 
-**👉👉 Continue reading: [Chengyu Wordle Is Not a Love Story](https://cheeaun.com/blog/2022/02/chengyu-wordle-is-not-a-love-story/) 👈👈**
+**👉👉 Continue reading: [](/) 👈👈**
 
 ---
 
@@ -56,13 +54,11 @@ One day, I [tweeted](https://twitter.com/cheeaun/status/1484482726644183041):
 
 我就想："嘿，挺酷，但我也能搞一个不一样的吧？"
 
-有一天，我[发了一条推文](https://twitter.com/cheeaun/status/1484482726644183041)：
-
 > **Wordle，但用来猜中文成语。**
 > 
 > #idea
 
-**👉👉 继续阅读：[成语 Wordle 不是一个爱情故事](https://cheeaun.com/blog/2022/02/chengyu-wordle-is-not-a-love-story/) 👈👈**
+**👉👉 继续阅读：[成语 Wordle](/) 👈👈**
 
 ---
 
@@ -200,4 +196,6 @@ As of now, 中文 is very roughly translated from English via Google Translate, 
 ## Copyright and License | 版权和许可
 
 - Wordle ©️ The New York Times Company
-- Everything else: [MIT license](https://cheeaun.mit-license.org/)
+- Everything else: [MIT license](https://luomor.mit-license.org/)
+
+[MIT license](https://www.luomor.com/Luomor-MIT-License/)

@@ -1,6 +1,6 @@
 {
   "about": {
-    "about1": "<0>Built</0> by <1>Chee Aun</1>. <2>Wordle</2> © The New York Times Company.",
+    "about1": "<0>Built</0> by <1>Luomor</1>. <2>Wordle</2> © The New York Times Company.",
     "about2": "Enjoying the game? <0>Buy me a coffee!</0>",
     "heading": "About"
   },
@@ -34,9 +34,9 @@
     "githubDiscussions": "<0>GitHub Discussions</0> (for developers)",
     "githubIssues": "<0>GitHub Issues</0> (for bugs)",
     "heading": "Feedback",
-    "telegram": "@cheeaun on Telegram",
+    "telegram": "@yiluxiangbeigp on Telegram",
     "telegramGroup": "Telegram Group",
-    "twitter": "@cheeaun on Twitter"
+    "twitter": "@hunterlre on Twitter"
   },
   "glossary": {
     "baidu": "Baidu",

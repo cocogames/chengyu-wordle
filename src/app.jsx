@@ -393,7 +393,7 @@ export function App() {
   useEffect(() => {
     setDefinition(null);
     fetch(
-      `https://baidu-hanyu-idiom.cheeaun.workers.dev/?wd=${currentGame.idiom}`,
+      `https://chat.luomor.com/?wd=${currentGame.idiom}`,
     )
       .then((r) => r.json())
       .then((r) => {
@@ -1275,10 +1275,10 @@ export function App() {
                   i18nKey="about.about1"
                   components={[
                     <a
-                      href="https://github.com/cheeaun/chengyu-wordle/"
+                      href="https://github.com/cocogames/chengyu-wordle/"
                       target="_blank"
                     />,
-                    <a href="https://cheeaun.com/projects/" target="_blank" />,
+                    <a href="https://www.luomor.com/" target="_blank" />,
                     <a
                       href="https://www.nytimes.com/games/wordle/"
                       target="_blank"
@@ -1291,7 +1291,7 @@ export function App() {
                   i18nKey="about.about2"
                   components={[
                     <a
-                      href="https://www.buymeacoffee.com/cheeaun"
+                      href="https://paypal.me/zhangchunsheng"
                       target="_blank"
                     />,
                   ]}
@@ -1300,7 +1300,7 @@ export function App() {
               <h2>{t('feedback.heading')}</h2>
               <ul>
                 <li>
-                  <a href="https://t.me/+ykuhfiImLd1kNjk1" target="_blank">
+                  <a href="https://t.me/+77D00KGL_7U4MThl" target="_blank">
                     {t('feedback.telegramGroup')}
                   </a>
                 </li>
@@ -1309,7 +1309,7 @@ export function App() {
                     i18nKey="feedback.githubDiscussions"
                     components={[
                       <a
-                        href="https://github.com/cheeaun/chengyu-wordle/discussions"
+                        href="https://github.com/cocogames/chengyu-wordle/discussions"
                         target="_blank"
                       />,
                     ]}
@@ -1320,19 +1320,19 @@ export function App() {
                     i18nKey="feedback.githubIssues"
                     components={[
                       <a
-                        href="https://github.com/cheeaun/chengyu-wordle/issues"
+                        href="https://github.com/cocogames/chengyu-wordle/issues"
                         target="_blank"
                       />,
                     ]}
                   />
                 </li>
                 <li>
-                  <a href="https://twitter.com/cheeaun" target="_blank">
+                  <a href="https://twitter.com/hunterlre" target="_blank">
                     {t('feedback.twitter')}
                   </a>
                 </li>
                 <li>
-                  <a href="https://t.me/cheeaun" target="_blank">
+                  <a href="https://t.me/yiluxiangbeigp" target="_blank">
                     {t('feedback.telegram')}
                   </a>
                 </li>
