@@ -33,7 +33,7 @@ I'm like, "Hey, that's pretty cool, but maybe I could try something else?".
 > #idea
 > 
 
-**👉👉 Continue reading: [](/) 👈👈**
+**👉👉 Continue reading: [Chengyu Wordle](https://www.luomor.com/2026/05/30/%e6%af%8f%e6%97%a5%e7%8c%9c%e6%88%90%e8%af%ad%e4%b8%8a%e7%98%be%ef%bc%81%e8%bf%99%e6%ac%be%e4%b8%ad%e6%96%87-wordle-%e5%b0%8f%e6%b8%b8%e6%88%8f%ef%bc%8c%e6%89%93%e5%bc%80%e6%b5%8f%e8%a7%88%e5%99%a8/) 👈👈**
 
 ---
 
@@ -58,7 +58,7 @@ I'm like, "Hey, that's pretty cool, but maybe I could try something else?".
 > 
 > #idea
 
-**👉👉 继续阅读：[成语 Wordle](/) 👈👈**
+**👉👉 继续阅读：[成语 Wordle](https://www.luomor.com/2026/05/30/%e6%af%8f%e6%97%a5%e7%8c%9c%e6%88%90%e8%af%ad%e4%b8%8a%e7%98%be%ef%bc%81%e8%bf%99%e6%ac%be%e4%b8%ad%e6%96%87-wordle-%e5%b0%8f%e6%b8%b8%e6%88%8f%ef%bc%8c%e6%89%93%e5%bc%80%e6%b5%8f%e8%a7%88%e5%99%a8/) 👈👈**
 
 ---
 
