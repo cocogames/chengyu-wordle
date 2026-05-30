@@ -6,48 +6,101 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
-    <title>Chengyu Wordle</title>
+    <title>Chengyu Wordle | 烙馍网成语 Wordle - Guess Chinese Idioms in 6 Tries</title>
     <link rel="icon" type="image/svg+xml" href="./src/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./public/icon-192.png" />
     <link rel="apple-touch-icon" href="./src/apple-touch-icon.png" />
     <meta name="google" content="notranslate" />
     <meta name="color-scheme" content="dark light" />
 
-    <!-- Metacrap -->
+    <!-- SEO Meta Tags -->
     <meta
       name="description"
-      content="Wordle, for Chinese idioms - 成语 (chéngyǔ). Guess the idiom in 6 tries."
+      content="Chengyu Wordle - Wordle for Chinese idioms (成语). Guess the 4-character idiom in 6 tries. A fun word puzzle game to learn Chinese idioms. Play daily puzzles or choose any past puzzle."
     />
-    <meta property="twitter:card" content="summary_large_image" />
     <meta
-      name="twitter:url"
-      property="og:url"
-      content="https://cheeaun.github.io/chengyu-wordle/"
+      name="keywords"
+      content="chengyu wordle, chinese idioms, 成语, wordle game, idiom game, chinese learning, 猜成语, word game, daily puzzle, 成语接龙"
     />
-    <meta name="twitter:title" property="og:title" content="Chengyu Wordle" />
+    <meta name="author" content="Peter Zhang" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://wordle-cn.luomor.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wordle-cn.luomor.com/" />
+    <meta property="og:title" content="Chengyu Wordle | 烙馍网成语 Wordle - Guess Chinese Idioms in 6 Tries" />
+    <meta
+      property="og:description"
+      content="Wordle for Chinese idioms (成语). Guess the 4-character idiom in 6 tries. Play daily puzzles or choose any past puzzle. A fun way to learn Chinese idioms!"
+    />
+    <meta property="og:image" content="https://i.imgur.com/HaFiQgi.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Chengyu Wordle game screenshot showing colorful tiles" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:site_name" content="Chengyu Wordle" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://wordle-cn.luomor.com/" />
+    <meta name="twitter:title" content="Chengyu Wordle | 烙馍网成语 Wordle - Guess Chinese Idioms in 6 Tries" />
     <meta
       name="twitter:description"
-      property="og:description"
-      content="Wordle, for Chinese idioms - 成语 (chéngyǔ). Guess the idiom in 6 tries."
+      content="Wordle for Chinese idioms (成语). Guess the 4-character idiom in 6 tries. A fun word puzzle game!"
     />
-    <meta
-      name="twitter:image"
-      property="og:image"
-      content="https://i.imgur.com/HaFiQgi.jpg"
-    />
-    <link rel="canonical" href="https://cheeaun.github.io/chengyu-wordle/" />
+    <meta name="twitter:image" content="https://i.imgur.com/HaFiQgi.jpg" />
+    <meta name="twitter:image:alt" content="Chengyu Wordle game screenshot" />
 
-    <meta name="theme-color" content="green" />
-    <link rel="manifest" href="./site.webmanifest" />
+    <!-- Alternate language versions -->
     <link
       rel="alternate"
       hreflang="en"
-      href="https://cheeaun.github.io/chengyu-wordle/?lng=en"
+      href="https://wordle-cn.luomor.com/?lng=en"
     />
     <link
       rel="alternate"
       hreflang="zh-CN"
-      href="https://cheeaun.github.io/chengyu-wordle/?lng=zh-CN"
+      href="https://wordle-cn.luomor.com/?lng=zh-CN"
     />
+    <link rel="alternate" hreflang="x-default" href="https://wordle-cn.luomor.com/" />
+
+    <!-- PWA / Web App -->
+    <meta name="theme-color" content="green" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Chengyu Wordle" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Chengyu Wordle",
+      "alternateName": "烙馍网成语 Wordle",
+      "url": "https://wordle-cn.luomor.com/",
+      "description": "Wordle for Chinese idioms (成语). Guess the 4-character idiom in 6 tries.",
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Peter Zhang",
+        "url": "https://luomor.com"
+      },
+      "inLanguage": ["en", "zh-CN"],
+      "screenshot": "https://i.imgur.com/HaFiQgi.jpg",
+      "keywords": "chengyu, wordle, chinese idioms, 成语, word game, puzzle"
+    }
+    </script>
     <script src="https://games.luomor.com/wordle/bugsnag.min.js"></script>
     <script>
       var legacy = !('noModule' in HTMLScriptElement.prototype);
@@ -64,7 +117,7 @@
     </script>
     <script
       defer
-      data-domain="cheeaun.github.io/chengyu-wordle"
+      data-domain="wordle-cn.luomor.com"
       src="https://games.luomor.com/wordle/plausible.hash.js"
     ></script>
     <script>
