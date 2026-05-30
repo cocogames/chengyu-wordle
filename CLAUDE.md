@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **成语 Wordle** 是一个 Wordle 的中文变种游戏——猜四字成语。玩家有 6 次机会猜出一个成语。使用 **Preact + Vite** 构建，部署为静态网站。每天有一个固定成语（每日谜题），玩家也可以通过成语 ID 或随机选择来玩任意往期谜题。
 
+[成语 Wordle](https://wordle-cn.luomor.com/)
+
 ## 常用命令
 
 ```bash
